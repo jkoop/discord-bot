@@ -1,7 +1,7 @@
-# Marty Bot
+# Maria Bot
 
-[![Marty Latest](https://github.com/msawatzky75/discord-bot-js/actions/workflows/latest.yml/badge.svg?branch=master)](https://github.com/msawatzky75/discord-bot-js/actions/workflows/latest.yml)
-[![Marty Nightly](https://github.com/msawatzky75/discord-bot-js/actions/workflows/nightly.yml/badge.svg?branch=dev)](https://github.com/msawatzky75/discord-bot-js/actions/workflows/nightly.yml)
+[![Maria Latest](https://github.com/jkoop/discord-bot/actions/workflows/latest.yml/badge.svg?branch=master)](https://github.com/jkoop/discord-bot/actions/workflows/latest.yml)
+[![Maria Nightly](https://github.com/jkoop/discord-bot/actions/workflows/nightly.yml/badge.svg?branch=dev)](https://github.com/jkoop/discord-bot/actions/workflows/nightly.yml)
 
 ## Setup
 
@@ -49,8 +49,8 @@ $ docker-compose up --build
 or if you dont want to use docker-compose:
 
 ```
-$ docker build . --tag marty-bot:latest
-$ docker run marty-bot:latest
+$ docker build . --tag maria-bot:latest
+$ docker run maria-bot:latest
 ```
 
 ## Development
@@ -78,10 +78,11 @@ the bot can process them. This is handled by the
 $ yarn register
 ```
 
-command. this only needs to be run once, and once evertime you add, remove,
+command. this only needs to be run once, and once every time you add, remove,
 or update command names and descriptions.
 
-or in docker: 
+or in docker:
+
 ```
-$ docker exec marty yarn register
+$ docker exec maria yarn register
 ```

@@ -1,9 +1,9 @@
 {
-	"name": "discord-bot-js",
-	"version": "2.1.0",
+	"name": "discord-bot",
+	"version": "0.1.0",
 	"private": true,
-	"repository": "git@github.com:msawatzky75/discord-bot-js.git",
-	"author": "Matthew Sawatzky <msawatzky75@gmail.com>",
+	"repository": "git@github.com:jkoop/discord-bot.git",
+	"author": "Joe Koop <joe@joekoop.com>",
 	"license": "MIT",
 	"type": "module",
 	"scripts": {
