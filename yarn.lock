@@ -785,9 +785,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"discord-bot-js@workspace:.":
+"discord-bot@workspace:.":
   version: 0.0.0-use.local
-  resolution: "discord-bot-js@workspace:."
+  resolution: "discord-bot@workspace:."
   dependencies:
     "@discordjs/rest": ^1.1.0
     "@types/debug": ^4.1.7
